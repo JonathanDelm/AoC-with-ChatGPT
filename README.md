@@ -8,7 +8,7 @@ This way I can learn more about how ChatGPT operates, what the best methodolgy i
 
 ## Structure
 
-The project contains a folder for every challenge. Each folder contains:
+The project contains a folder for every challenge. Each folder contains subfolders for every attempt if it took more than one attempt with:
 
 - A **conversation.md** file, which contains the conversation between me and ChatGPT.
 - A **conversation_screenshot.png** file, which contains a screenshot of the conversation.
@@ -19,7 +19,8 @@ The project contains a folder for every challenge. Each folder contains:
 
 - **Day 1**
    - *Attempt 1*: Was going well, but session expired and lost the conversation.
-   - *Attempt 2*: Solved in 3 attempts (20 min).
+   - *Attempt 2*: Solved in 3 attempts (20 min) but forgot about the second part of the puzzle 🤦‍♂️.
+   - *Attempt 3*: Solved the first part in 3 attempts and the second part in just 1 attempt (15 min total).
 
 ## Notes
 
