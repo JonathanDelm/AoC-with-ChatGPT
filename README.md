@@ -41,6 +41,12 @@ Notes:
 - Output like this after being corrected makes it almost feel *too* human-like:
     > I mistakenly assumed that duplicates would be eliminated because the puzzle states that "the Elves have made a list of all of the items currently in each rucksack," which implies that each item is only counted once. However, upon rereading the puzzle description, I see that I was incorrect.
 
+### Day 4
+Part one took some tries, **5 attempts** to be exact, but part two made up for it by being solved in just **1 attempt**.
+
+Notes:
+- A new development in answering code. He gives the main part with empty functions but adds their full signatures and an explanation of what the implementation could look like. I like this approach, since it makes for less cutting off of code and makes working on specific parts more inuitive.
+- Part 2 was solved in one attempt, which was great, because I actually misinterpreted the instructions and would have needed at least 2 tries myself without ChatGPT 🙃.
 
 ## Notes
 
