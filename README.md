@@ -19,19 +19,27 @@ The project contains a folder for every challenge. Each folder contains subfolde
 
 ### Day 1
  - *Attempt 1*: Was going well, but session expired and lost the conversation 🤦‍♂️.
- - *Attempt 2*: Solved in 3 attempts (20 min) but forgot about the second part of the puzzle 🤦‍♂️.
- - *Attempt 3*: Solved the first part in 3 attempts and the second part in just 1 attempt (15 min total).
+ - *Attempt 2*: Solved in **3 attempts** but forgot about the second part of the puzzle 🤦‍♂️.
+ - *Attempt 3*: Solved the first part in **3 attempts** and the second part in just **1 attempt**.
 
 Notes:
 - So impressive. Makes me wonder if the model is somehow training on the input from other people who also make it solve the same AoC challenges. Or there is some other kind of 'data leakage' for these specific challenges.
 
 ### Day 2
-Solved first part in 3 attempts and second part in 2 attempts (65 min total).
+Solved first part in **3 attempts** and second part in **2 attempts**.
 
 Notes:
 - Most of the time for part 1 was spent by me debugging the almost perfect code. Should probably try to reproduce and try to debug via ChatGPT (but that's more overhead in the copy pasting of code).
 - The biggest challenge of part 2 was keeping the code short enough so it didn't get cut off. Also, removing comments from the code is apparently not trivial for some reason.
 - I had a lot more attempts for part 2 but none of the other ones were fully printed, so I only include those that are full pieces of code as attempt.
+
+### Day 3
+Solved both parts in **2 attempts**.
+
+Notes:
+- A very minor mistake in both parts, easily fixed by ChatGPT with simple instructions. Amazing.
+- Output like this after being corrected makes it almost feel *too* human-like:
+    > I mistakenly assumed that duplicates would be eliminated because the puzzle states that "the Elves have made a list of all of the items currently in each rucksack," which implies that each item is only counted once. However, upon rereading the puzzle description, I see that I was incorrect.
 
 
 ## Notes
