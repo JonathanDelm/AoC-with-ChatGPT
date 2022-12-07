@@ -1,0 +1,45 @@
+def read_initial_stacks(lines):
+    # Initialize the stacks of crates
+    stacks = []
+
+    # Read the lines until the line that contains a space and a number as the first 2 characters
+    for line in lines:
+        if line[0:2] == '  ' and line[2].isdigit():
+            break
+
+        # Divide the line into parts of 4 characters and 3 for the last one
+        parts = [line[i:i+4] for i in range(0, len(line), 4)]
+
+        # Read the second character for each part
+        crates = [part[1] for part in parts]
+
+        # Put each of the read characters into the correct list
+        stacks.append(crates)
+
+    return stacks
+
+# Parse the input
+with open('input.txt') as f:
+    lines = f.readlines()
+
+# Read the initial stacks of crates
+stacks = read_initial_stacks(lines)
+
+# Parse the instructions for rearranging the crates
+instructions = [line.strip().split() for line in lines[-1:]]
+
+# Simulate the rearrangement of the crates
+for instruction in instructions:
+    # Parse the instruction
+    num_crates = int(instruction[0])
+    from_stack = int(instruction[3])
+    to_stack = int(instruction[5])
+
+    # Move the crates from one stack to another
+    moved_crates = stacks[from_stack - 1][-num_crates:]
+    stacks[from_stack - 1] = stacks[from_stack - 1][:-num_crates]
+    stacks[to_stack - 1] += moved_crates
+
+# Print the top crate of each stack
+for stack in stacks:
+    print(stack[-1])
