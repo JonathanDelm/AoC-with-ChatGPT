@@ -51,13 +51,17 @@ Notes:
 
 ### Day 5
 - *Attempt 1*: With our approach - making him aware of mistakes instead of actively giving hints on how to solve them - he's truggling a *lot* with the input parsing and it's simply taking too long. Although with enough time, I think we'd still get there. Let's try a more direct approach:
-- *Attempt 2*: Give concrete hints on how to solve problems, while still not changing anything to the generated code. Part one was solved in **8 "attempts"** although attempts is probably not the correct metric to use anymore. The problem was solved step by step, function by function, so there wasn't any fully testable code until all steps were correctly resolved. Therefore, the amount of prompts might be a better metric: **10 prompts** in this case. Part two was solved in **3 attempts** or **6 prompts**, but we were thrown out by the session expiring, so we needed to provide the context from the lost conversation which might have increased the amount of attempts/prompts slightly.
+- *Attempt 2*: Give concrete hints on how to solve problems, while still not changing anything to the generated code. Part one was solved in **8 "attempts"** although attempts is probably not the correct metric to use anymore. The problem was solved step by step, function by function, so there wasn't any fully testable code until all steps were correctly resolved. Therefore, the amount of prompts might be a better metric: **9 prompts** in this case. Part two was solved in **3 attempts** or **6 prompts**, but we were thrown out by the session expiring, so we needed to provide the context from the lost conversation which might have increased the amount of attempts/prompts slightly.
 
 Notes:
 - Not a lot of explanation given in the first attempt, which was unusual.
 - The logic for solving the puzzle was pretty okay. The reading of the input was the real challenge. He didn't take the examples as literal input, but rather assumed that the real input didn't have the brackets (or just wasn't smart enough to immediately take those into account.) He also assumed there were always going to be 3 stacks, which is not unreasonable since it's never explicitely stated.
 - ChatGPT was also struggling with demand it seems. Lots of waiting for responses, trying again, etc.
 - In conclusion: With the code of the very first attempt, I could have manually made the necessary changes pretty easily, but letting him find those needed changes by just pointing him towards them: not so easy. Providing him with concrete ways to solve the issues: much easier.
+
+### Day 6
+Very easy day, solved in **4** & **1 attempt** (or **4** & **1 prompts**).
+No notes.
 
 ## Notes
 
